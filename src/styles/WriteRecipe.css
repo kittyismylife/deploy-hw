@@ -1,0 +1,170 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-recipe-data {
+  padding: 20px 0 !important;
+  padding-left: 18px !important;
+  font-size: 15px !important;
+  width: 95% !important;
+  border: none !important;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.picture_re_input {
+  max-width: 100%;
+  max-height: 80%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 80px;
+  cursor: pointer;
+}
+
+.writerecipe-title {
+  width: 80%;
+  color: #471d06;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 18px;
+  margin-bottom: 5px;
+  padding: 10px 5px;
+}
+
+.writerecipe-title2 {
+  width: 80%;
+  color: #471d06;
+  font-weight: 700;
+  font-size: 17px;
+
+  margin-bottom: 5px;
+  padding: 10px 5px;
+}
+
+.ingredient-div {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ingredient-div input {
+  font-size: 15px !important;
+  padding: 10px 0 !important;
+  border-radius: 5px;
+  border: 1px solid rgb(237, 237, 237);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4) !important;
+}
+
+.ingredient-div input:first-child {
+  padding-left: 15px !important;
+  width: 70%; /* 필요한 만큼의 너비 설정 */
+  margin-right: 13px;
+}
+
+.ingredient-div input:last-child {
+  text-align: center;
+  width: 30%; /* 나머지 input의 너비 */
+}
+
+.add-gredient-btn {
+  padding: 5px 10px;
+  margin-left: 8px;
+  color: #471d06;
+  font-size: 12px;
+  font-weight: 800;
+  background-color: white;
+  border: 2px solid #471d06;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.image-preview {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.recipe-step-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.recipe-step {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100%;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  max-width: 340px;
+  margin-bottom: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-explain {
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  width: 92%;
+  padding: 10px;
+  font-size: 15px !important;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.style2 {
+  padding: 0 18px;
+}
+
+.recipe-save-button {
+  width: 85%;
+  margin: 20px auto;
+  margin-top: 0px;
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: #471d06;
+  background-color: #ffc851;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+.recipe-step-header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step-add-button {
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 800;
+  background-color: white;
+  color: #471d06;
+  border: 2px solid #471d06;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+}

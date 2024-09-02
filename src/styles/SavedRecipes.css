@@ -1,0 +1,91 @@
+.product-card2 {
+  margin: 0px;
+  border: 0px solid #ddd;
+  padding: 0 23px;
+  margin-bottom: 0px;
+  border-radius: 15px;
+}
+
+.product-show3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.product-image3 {
+  border-radius: 10px;
+  margin-right: 5px;
+  width: 85px;
+  height: 85px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.product-info2 {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.product-name {
+  margin: 0;
+  color: #471d06;
+  font-size: 18px;
+}
+
+.product-tags2 {
+  margin: 0;
+  font-weight: 600;
+  color: #ffb415;
+  margin-bottom: 10px;
+}
+
+.info-container2 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.tool_img_saved {
+  padding-top: 1px;
+  width: 12px;
+  height: 12px;
+}
+
+.time_img_saved {
+  padding-top: 1px;
+  width: 12px;
+  height: 13px;
+}
+
+.saved-recipe-sub-show {
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #8a8888;
+  font-family: "Noto Sans KR";
+}
+
+.save-btn {
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.save-btn img {
+  width: 25px;
+  height: 25px;
+}
+
+.orderlist-title2 {
+  margin-left: 20px !important;
+  font-weight: 700 !important;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.divider {
+  margin: 20px 0px;
+  border: 0.9px solid #ddd;
+  background: #d9d9d9;
+  box-shadow: 0px 2px 4px 0px rgba(217, 217, 217, 0.5);
+}

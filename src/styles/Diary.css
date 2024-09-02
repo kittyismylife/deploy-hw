@@ -1,0 +1,270 @@
+.diary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.react-calendar {
+  width: 100%;
+  background: white;
+  padding: 15px;
+  border: 0px solid #ddd;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.react-calendar__month-view__days {
+  display: grid;
+  grid-row-gap: 13px;
+}
+
+.react-calendar__tile {
+  padding: 20px;
+  height: 52px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 40px !important;
+}
+
+.react-calendar__tile:hover {
+  background: #ffecc4 !important;
+  color: #471d06 !important;
+}
+
+.bread-icon {
+  padding: 0;
+  margin: 0;
+  width: 38px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.react-calendar__tile--active {
+  background: #6f3d21 !important;
+  color: white !important;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.react-calendar__tile--now {
+  background: #fff5ef;
+  border-radius: 50px;
+}
+
+.react-calendar__month-view__weekdays abbr {
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.react-calendar__tile--hasActive abbr {
+  color: black;
+  border-radius: 10px;
+}
+
+.react-calendar__tile abbr {
+  display: none;
+}
+
+.react-calendar__navigation {
+  display: none;
+}
+
+.year-month-picker {
+  padding: 4px 10px;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+
+.year-month-picker select {
+  margin: 0px 0;
+  margin-right: 10px;
+}
+
+.select-date {
+  border: 0px;
+  font-size: 20px;
+  color: #471d06;
+  font-weight: 800;
+}
+
+.not-current-month {
+  color: #aaa !important;
+  opacity: 0.5 !important;
+}
+
+.saturday-tile {
+  color: #3535c1;
+}
+
+.sunday-tile {
+  color: #d53535;
+}
+
+.selection-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.today-button {
+  color: #9e7b31;
+  background-color: #ffeec9;
+  border: 0px;
+  border-radius: 5px;
+  padding: 7px 13px;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.date-container {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.selected-date {
+  color: #471d06;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.add-record-button {
+  margin-top: 10px;
+  text-align: left;
+  padding: 10px 20px;
+  color: #471d06;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #471d06;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.add-record-button:hover {
+  color: white;
+  background-color: #471d06;
+  border: 1px solid #471d06;
+}
+
+.review-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 16px;
+  margin-top: 13px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #471d06;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.review-stamp-image {
+  width: 38px;
+  height: 41px;
+  margin-left: 5px;
+  margin-right: 13px;
+}
+
+.bread-title {
+  color: #471d06;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+}
+
+.review-tag {
+  color: #ffb415;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+}
+
+.review-text {
+  margin-bottom: 10px;
+  color: #471d06;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.review-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.button-div {
+  position: absolute;
+  bottom: 5px;
+  right: 13px;
+}
+
+.diary-edit-button,
+.diary-delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding-bottom: 0;
+}
+
+.diary-edit-button img {
+  width: 25px;
+  height: 25px;
+}
+
+.diary-delete-button img {
+  width: 19px;
+  height: 19px;
+  padding-left: 3px;
+  padding-bottom: 3.5px;
+}
+
+.review-show-image {
+  width: 59px;
+  height: 59px;
+  margin-right: 16px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.vertical-line {
+  width: auto;
+  height: 100% !important;
+  min-height: 150px;
+  margin-right: 23px;
+  border: 0.5px solid #471d06;
+  stroke: #471d06;
+}
+
+.show-saved-image {
+  margin-bottom: 15px;
+}

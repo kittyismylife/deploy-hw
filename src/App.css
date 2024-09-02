@@ -1,0 +1,70 @@
+/* app.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-image: url("./main_back.png"); /* 배경 이미지 설정 */
+  background-size: cover; /* 배경 이미지 크기를 컨테이너에 맞게 조정 */
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+}
+
+.App {
+  max-width: 393px;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.show_screen {
+  position: relative; /* 부모 요소에 대한 상대적 위치 설정 */
+  z-index: 10; /* 배경 이미지 위에 위치하도록 설정 */
+  width: 393px;
+  height: 100vh; /* 전체 화면 높이 설정 */
+  margin: 0 auto;
+  overflow-x: hidden;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  background: white; /* 배경색을 투명하게 설정하여 배경 이미지가 보이도록 함 */
+}
+
+@media (max-width: 393px) {
+  .show_screen {
+    width: 100%;
+    height: 100vh; /* 전체 화면 높이 설정 */
+  }
+}
